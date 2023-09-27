@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    margin-bottom: 40px;
+    font-size: 4rem;
+    font-family: 'Stalemate', cursive;
+    color: #5f9ea0;
+}
+
+header h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: #5f9ea0;
+}
+
+header .web {
+    text-decoration: underline;
+}
+section {
+    max-width:500px;
+    margin: auto;
+    padding: 40px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    gap:20px;
+}
+
+section h2 {
+    margin: 1rem;
+}
+
+section h2,
+section h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    color: #5f9ea0;
+}
+
+.about-me,
+.contact-me {
+    text-align: center;
+}
+
+.my-skills h2 {
+    /* margin-bottom: 2rem; */
+    text-align: center;
+}
+
+.my-skills__block {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.my-skills__image-container {
+    width: 200px;
+    height: 200px;
+}
+
+.my-skills__image-container img{
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-me__btn {
+    background-color: #5f9ea0;
+    border: none;
+    padding: 10px 20px;
+    margin: 2rem;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #5f9ea0;
+    text-align: center;
+    padding: 40px;
+}
+
+footer .copy-right {
+    color: #fff;
+}
