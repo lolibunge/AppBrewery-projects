@@ -1,0 +1,38 @@
+*{
+  margin: 0
+}
+
+.container {
+  max-width: 900px;
+  margin:100px auto 0;
+}
+
+.container h1.title {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: #239e23;
+  margin-bottom: 40px;
+}
+
+.players-container {
+  display: flex;
+  justify-content: center;
+  gap:40px;
+}
+
+.players-container .player {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.player h2 {
+  font-family: 'Indie Flower', cursive;
+}
+#player2 h2{
+  color:purple;
+}
+#player1 h2 {
+  color:orange;
+}
