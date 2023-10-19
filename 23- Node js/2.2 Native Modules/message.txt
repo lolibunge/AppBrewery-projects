@@ -1,2 +1,2 @@
-Hello from NodeJS!
-Hello from Angela!
+Hello from node.js
+My name is Dolores Bunge, I'm a web developer and a Horse Lover!!
