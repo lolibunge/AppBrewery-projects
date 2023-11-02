@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../2.1 Using Node"
+		},
+		{
+			"path": "../2.2 Native Modules"
+		},
+		{
+			"path": "../2.3 NPM"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
