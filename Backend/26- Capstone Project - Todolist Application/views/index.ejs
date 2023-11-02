@@ -1,0 +1,39 @@
+<%- include("partials/header.ejs"); %>
+
+<h1>Welcome to the Blog Portal!</h1>
+<h2>Please, write your blog below</h2>
+<div class="blog-wrapper">
+    <div class="blog-form">
+        <form action="/submit" method="post"> <!-- Add the action and method attributes -->
+          <label>Add a blog title</label>
+          <input name="title" type="text" class="blog-input" placeholder="Title" />
+          <label>Add a blog content</label>
+          <textarea name="text" class="blog-input" placeholder="Blog body"></textarea>
+          <label>Add a blog author</label>
+          <input name="author" type="text" class="blog-input" placeholder="Author Name" />
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+      
+      <div class="blog-content">
+      <% if(locals.title){ %>
+          <div class="blog-title row">
+              <h3><%= title %></h3>
+          </div>
+          <% } %>
+          
+          <% if(locals.body){ %>
+          <div class="blog-body row">
+              <%= body %>
+          </div>
+          <% } %>
+          
+          <% if(locals.author){ %>
+          <div class="blog-author row">
+              <p>By <%= author %></p>
+          </div>
+          <% } %>
+      </div>
+</div>
+
+<%- include("partials/footer.ejs"); %>
